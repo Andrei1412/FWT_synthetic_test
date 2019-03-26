@@ -1,12 +1,11 @@
 # FWT_synthetic_test
 Full waveform tomography for synthetic test case
-TO DO
 
 1. Create test configuration: Run Test_configuration.py in the Master folder
 - Create initial and true models,move the velocity files to Model/Mdels
 - create SOURCE.txt and STATION.txt for source and station information, move the files to StaInform
 
-2.Create observed data: Run observed_data_nshots.py in FwdSims/V3.0.7-dc_stf_file 
+2. Create observed data: Run observed_data_nshots.py in FwdSims/V3.0.7-dc_stf_file 
 - Record seismograms from forward emod3d simulation for the list of station at every source, using the same source type, source signature defined in e3d_obs.par.
 - Move the seismogram folders to Kernels/Vel_ob
 
