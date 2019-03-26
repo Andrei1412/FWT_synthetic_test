@@ -11,7 +11,7 @@ echo $NPROC_TOTAL
 set NX = 200
 set NY = 200
 set NZ = 75
-set HH = 0.400
+set HH = 1.0
 set NT = 5000
 set DT = 0.02
 
@@ -63,7 +63,7 @@ set MODEL_LON = 172.559006104
 set MODEL_ROT = 0.0
 
 set BFILT = 4
-set FLO = 0.5
+set FLO = 1.0
 
 set DUMP_ITINC = 5000
 set DUMP_FLAG = 0
