@@ -16,6 +16,7 @@ Full waveform tomography for synthetic test case
 4. Invert models: Run Master_iterations_python.py or Master_iterations_matlab.py (Master python script) in Kernels/Iters/iter1 to do inversion (with adjoint source calculated in python and Matlab accordingly). The steps of inversion include:
 
 For each source:
+
 i) Generate the synthetic data for the initial (current) models: Call FWT_emod3d_shot_i_part1.sl in Master python script
   - Output seismograms for the list of stations and the deviatoric strain tensors at every cell in the domain, using the same source type, source signature defined in e3d_mysource_xyz_default.par and merge_P3_xyz.par in folder Kernels/Iters/iter1/FWD/.
   - Move the seismogram folders to Kernels/Vel_es and the strain wavefields to Kernels/Dev_Strain
@@ -31,6 +32,7 @@ iv) Calculate the kernels for each idividual source:
   - Call kernel_shot_i_iter1.sl to calculate the kernels for Vs and Vp and move the kernels for the corresponding source to Kernels/Iters/iter1/All_shots
   
 For all sources:
+
 v) Sum and precondition the kernels for all sources using taper matrices to get the gradients for Vs and Vp. Smoothen (using Gausian filter) and constrain the gradients.
   - Save the gradients for the current iterations to Kernels/Iters/iter1/Dump.
   - Load the gradients from the previous iteration if  conjugate gradient method is applied.
