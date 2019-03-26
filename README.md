@@ -33,7 +33,7 @@ iv) Calculate the kernels for each idividual source:
 For all sources:
 v) Sum and precondition the kernels for all sources using taper matrices to get the gradients for Vs and Vp. Smoothen (using Gausian filter) and constrain the gradients.
   - Save the gradients for the current iterations to Kernels/Iters/iter1/Dump.
-  - Load the gradients for the previous iteration if  conjugate gradient method is applied.
+  - Load the gradients from the previous iteration if  conjugate gradient method is applied.
   
 vi) Calculate the optimal step length for model updating by call in Step_length_3D_pad2 function in the Master python script:
   - if the optimal step length exists, update and save the model to Kernels/Iters/iter1/Dump for the current iteration.
