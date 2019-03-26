@@ -1,0 +1,9 @@
+   8
+  50  50  25    source0
+ 100  50  25    source1
+ 150  50  25    source2
+  50 100  25    source3
+ 150 100  25    source5
+  50 150  25    source6
+ 100 150  25    source7
+ 150 150  25    source8

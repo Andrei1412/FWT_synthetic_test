@@ -1,0 +1,7 @@
+filelist=../../../AdjSims/V3.0.7-a2a_xyz/merge_filelist_new.txt
+n_comps=6
+comp_names=exxp,eyyp,eii3,exyp,exzp,eyzp
+outdir=../../../AdjSims/V3.0.7-a2a_xyz/OutBin
+outfile_root=adj01_xyzts
+logdir=Mlog
+logname=adj01
