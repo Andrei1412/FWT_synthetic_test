@@ -28,7 +28,7 @@ iii) Adjoint (backward) simulation: Call FWT_emod3d_shot_i_part2.sl in Master py
   - Convert the adjoint sources in ascii format to binary format for adjoint simulation for the initial (current) models using parameters set in set_run+merge_params_new_h.csh in Kernels/Iters/iter1/ADJ
   - Output the deviatoric strain tensors at every cell in the domain and move the files to Kernels/Dev_Strain 
 
-iv) Calculate the kernels for each idividual source:
+iv) Calculate the kernels for each individual source:
   - Call kernel_shot_i_iter1.sl to calculate the kernels for Vs and Vp and move the kernels for the corresponding source to Kernels/Iters/iter1/All_shots
   
 For all sources:
