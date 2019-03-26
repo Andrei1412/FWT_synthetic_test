@@ -37,7 +37,7 @@ v) Sum and precondition the kernels for all sources using taper matrices to get 
   
 vi) Calculate the optimal step length for model updating by call in Step_length_3D_pad2 function in the Master python script:
   - if the optimal step length exists, update and save the model to Kernels/Iters/iter1/Dump for the current iteration.
-  - if the optimal step length does not exit, terminate the iteration process or start the current iteration again with higher frequency data.
+  - if the optimal step length does not exist, terminate the iteration process or start the current iteration again with higher frequency data.
   
 
 
